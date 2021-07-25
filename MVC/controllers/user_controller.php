@@ -1,5 +1,5 @@
 <?php
-include 'models/db_config.php';
+	include 'models/db_config.php';
     $name="";
 	$err_name="";
 	$uname="";
@@ -8,7 +8,6 @@ include 'models/db_config.php';
 	$err_email="";
 	$pass="";
 	$err_pass="";
-	
 	$err_db="";
 	$hasError=false;
 	
