@@ -1,6 +1,6 @@
 <html>
 	<script>
-		function loadDOC(){
+		function loadDoc(){
 			var xhr = new XMLHttpRequest();
 			xhr.open("GET","myprofile.php",true);
 			xhr.onreadystatechange = function(){
@@ -13,6 +13,6 @@
 	</script>
 	
 		<body>
-			<button onclick="loadDoc()">click me</button>
+			<button onclick="loadDoc()">Click me</button>
 		</body>
 </html>
